@@ -1,0 +1,9 @@
+parameter_defaults:
+    ControlPlaneDefaultRoute: 192.168.0.1
+    ControlPlaneSubnetCidr: '16'
+    DnsServers:
+    - 192.168.0.1
+    EC2MetadataIp: 192.168.0.1
+resource_registry:
+    OS::TripleO::Compute::Net::SoftwareConfig: vlans//compute.yaml
+    OS::TripleO::Controller::Net::SoftwareConfig: vlans//controller.yaml

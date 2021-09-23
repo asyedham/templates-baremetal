@@ -1,0 +1,2 @@
+# templates-baremetal
+Templates

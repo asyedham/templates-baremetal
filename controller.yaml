@@ -86,7 +86,7 @@ parameters:
       (The parameter is automatically resolved from the ctlplane network's mtu attribute.)
     type: number
   StorageMtu:
-    default: 1500    default: 1500
+    default: 1500
     description: The maximum transmission unit (MTU) size(in bytes) that is
       guaranteed to pass through the data path of the segments in the
       InternalApi network.
